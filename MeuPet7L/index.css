@@ -1,0 +1,507 @@
+:root{
+    --lblue: #a4beba;
+    --blue: #48747C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li a {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+
+ul {
+    list-style: none;
+}
+
+body , html {
+    overflow-x: hidden;
+    background-image: url('./images/Design\ sem\ nome\ \(2\).png');
+}
+
+body::-webkit-scrollbar, html::-webkit-scrollbar {
+    display: none;
+} 
+
+.fundo {
+    background-color: white;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-radius: 20px;
+}
+
+/* Navbar */
+
+.navbar {
+    margin: 20px;
+    position: absolute;
+    font-family: "Poppins";
+    font-size: 4vmin;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color:white;
+    background-color: transparent;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+}
+
+.navlinks li{
+    margin: 0 2vh;
+    color: white;
+}
+
+
+header {
+    height: 100vmin;
+    width: 100vw;
+    border-radius: 0px 0px 50px 50px;
+    background-image: url('./images/pet-bg2.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+.header-content {
+    color:white;
+    text-align: center;
+    margin-bottom: 30vmin;
+}
+
+.header-content h2 {
+    font-family: "Poppins";
+    font-size: 4vmin;
+}
+
+.header-content a {
+    font-size: 3vmin;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: #a4beba;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1 {
+    font-family: "Poppins";
+    font-size: 5vmin;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background: #a4beba;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Informações */
+
+.info h1 {
+    padding-top: 3%;
+}
+
+section {
+    width: 60%;
+    margin: 40px auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    color: #48747C;
+    margin-top: 5%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: 3vmin;
+    color: #48747C;
+    margin: 20px auto;
+}
+
+p {
+    text-align: center;
+    color: black;
+    padding: 0px 40px;
+}
+
+.ctn {
+    margin-top: 30px;
+}
+/* Vacinas */
+
+.alerta {
+    font-size: 3vh;
+    color: #b30000;
+}
+
+.vacinas {
+    background-color: #48747C;
+    width: 80vw;
+    border: 1px solid #a4beba;
+    border-radius: 30px;
+}
+
+.vacinas p {
+    font-family: "Poppins";
+    background-color: white;
+    border-radius: 20px;
+    color: gray;
+    font-style: italic;
+    padding: 20px;
+}
+
+.row2 {
+    margin: 20px;
+}
+
+.vacinas h1 {
+    font-family: "Poppins";
+    color: white;
+}
+
+.vacinas .line {
+    background: #a4beba;
+}
+
+.line2 {
+    width: 150px;
+    height: 4px;
+    background: #a4beba;
+    margin: 10px -1px;
+    border-radius: 5px;
+
+}
+
+.teste{
+    background-image: url('./images/Design\ sem\ nome.png');
+}
+
+.add {
+    font-size: 3vh;
+    background-color: #a4beba;
+    color: white;
+    margin: auto;
+    width: 10%;
+    border-radius: 20px;
+    border: transparent;
+    cursor: pointer;
+}
+
+.add:hover {
+    background: #94aba7;
+}
+
+/* Pontos */
+
+table {
+    width: 100%;
+    table-layout:fixed;
+    border-collapse: collapse;
+    word-wrap: break-word;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 2vh;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 2vh;
+    font-weight: bold;
+    color: #325157;
+}
+
+td {
+    padding: 1rem;
+    width: 50%;
+}
+
+td .teste {
+    width: 90%;
+    height: 90%;
+    align-content: center;
+}
+
+tr:nth-of-type(2n) {
+    background: hsl(0 0% 0% / 0.05);
+}
+
+/* Agende */
+
+.content-col {
+    margin-top: 40px;
+    width: 40%;
+}
+
+.image-col {
+    margin-top: 40px;
+    width: 60%;
+}
+
+.agende .image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+
+.image-gallery img{
+    max-width: 200px;
+    margin: 10px;
+}
+
+.content-col h1 {
+    font-size: 7vmin;
+    color:#48747C;
+}
+
+.content-col .line {
+    margin-left: -1px;
+}
+
+.content-col p {
+    padding: 0;
+    margin: 30px auto;
+    font-size: 2vmin;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    min-height: 200px;
+    padding: 20px 80px;
+    margin: 0;
+    background-color: #213438;
+    text-align: center;
+}
+
+.footer h1 {
+    color: #416870;
+}
+
+.footer p {
+    
+    color: #325157;
+    margin: 20px auto;
+}
+/* Login */
+
+h5 {
+    text-align: center;
+}
+
+.vacinas h6 {
+    font-size: 5vh;
+    transform: translate() scale(2);
+}
+
+.login {
+    padding: 8px 15px;
+    background: #a4beba;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-right: 15px;
+    border: transparent;
+    font-family: "Poppins";
+    font-size: 4vmin;
+    cursor: pointer;
+}
+
+/* Forms */
+.formP .pubP,
+.formV .pubV {
+    text-align: center;
+    width: 100%;
+    font-size: 5vh;
+    border-radius: 20px;
+    margin: 3px;
+    padding: 8px;
+    border: transparent;
+    cursor: pointer;
+    background-color: #a4beba;
+    color: white;
+}
+
+.formP .pubP:hover,
+.formV .pubV:hover {
+    background: #94aba7
+}
+
+.input-row .caixa {
+    font-style: italic;
+}
+
+.formP,
+.formV {
+    margin: auto;
+    width: 48%;
+    border-radius: 20px;
+    padding: 3vh;
+    transform: translate(50%, -50%);
+    box-shadow: 0 0 40px 0 rgba(0,0,0,.45);
+    background-color: white;
+    font-size: 4vh;
+    position: fixed;
+    font-family: "Poppins";
+    color: #325157;
+    opacity: 0;
+    z-index: 1;
+}
+
+/* Forms Anim*/
+
+.formP.active,
+.formV.active {
+    top: 50%;
+    opacity: 1;
+    transition: opacity 100ms ease-in-out; 
+    animation: formActive 200ms;
+}
+
+@keyframes formActive {
+    from {scale: 0.95;}
+    to {scale: 1;}
+}
+
+.formP .fecharP,
+.formV .fecharV {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 3vh;
+    transform: scale(3);
+    text-align: center;
+    border-radius: 20px;
+    border: transparent;
+    cursor: pointer;
+    color: #989892;
+    background-color: transparent;
+}
+
+.formP .caixa,
+.formV .caixa {
+    border-radius: 5px;
+    background-color: #bebeb6;
+    border: none;
+    color: black;
+    width: auto;
+    font-size: 2vh;
+    width: 100%;
+    resize: both;
+    overflow: auto;
+    text-decoration: none;
+    transform: translateY(-8px);
+    margin: 4px;
+     resize: none;
+     padding: 10px;
+}
+
+.formP p,
+.formV p {
+    color: #bebeb6;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 3vh;
+    margin-left: -40px;
+}
+
+
+
+.login:hover {
+    background: #94aba7;
+}
+
+.formP .entrar:hover,
+.formV .entrar:hover {
+    background-color: #94aba7;
+}
+
+.formP p:hover,
+.formV p:hover {
+    color: #c1c1b9;
+}
+
+.deleteBtn {
+    margin-left: 3vh;
+    border: none;
+    font-size: 3vh;
+    font-family: "Poppins";
+    padding: 2vh;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.deleteBtn:hover {
+    background-color: #e6e6e3;
+}
+
+/* Anim */
+
+img {
+    transition: transform .3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.ctn:hover {
+    background: #94aba7;
+}
+
+li a:hover {
+    color: #a4beba;
+    transition: 0.2s;
+    text-decoration-color: #a4beba;
+}
+
+.formP .fecharP:hover,
+.formV .fecharV:hover {
+    color: #5f5f5b;
+}
+
+.ctn {
+    font-size: 3vh;
+}

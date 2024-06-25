@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+ul {
+    list-style: none;
+}
+
+body , html {
+    overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+    height: 250px;
+    background: linear-gradient(164deg, rgba(2,0,36,1) 0%, rgba(50,81,87,1) 35%, rgba(148,171,167,1) 100%);
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+}
+
+.header-content {
+    color:white;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.header-content h1 {
+    font-family: "Poppins";
+    font-size: 10vmin;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* Quem */
+
+section {
+    width: 90%;
+    margin: 40px auto;
+    margin-top: 10px;
+}
+
+.title {
+    text-align: center;
+    font-size: 5vmin;
+    color: #48747C;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: #a4beba;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+h2 {
+    color: white;
+    font-size: 4vmin;
+    padding: 0px 40px; 
+}
+
+.quem p {
+    font-size: 3vmin;
+    color: white;
+    padding: 0px 40px;
+}
+
+.image-col {
+    margin-left: 80px;
+    size: 40px;
+}
+
+.content-col {
+    background-color: #48747C;
+    font-family: "Poppins";
+    text-align: left;
+    border-radius: 20px;
+}
+
+/* Objetivo */
+
+h3 {
+    color: #a4beba;
+    font-size: 6vmin;
+    padding: 0px 40px; 
+    font-family: "Poppins";
+    text-decoration: underline;
+}
+
+.objetivo p {
+    font-family: "Poppins";
+    font-size: 4vmin;
+    color: #808080;
+    padding: 0px 40px;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    min-height: 200px;
+    padding: 20px 80px;
+    margin: 0;
+    background-color: #213438;
+    text-align: center;
+}
+
+.footer h1 {
+    color: #416870;
+}
+
+.footer p {
+    
+    color: #325157;
+    margin: 20px auto;
+}
+

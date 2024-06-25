@@ -1,0 +1,378 @@
+:root{
+    --lblue: #a4beba;
+    --blue: #48747C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li a {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+h3 {
+    text-decoration: underline;
+    color: #a4beba;
+    text-decoration-color: #a4beba;
+    font-size: 4vmin;
+}
+
+ul {
+    list-style: none;
+}
+
+body , html {
+    overflow-x: hidden;
+    background-image: url('./images/Design\ sem\ nome\ \(2\).png');
+}
+
+body::-webkit-scrollbar, html::-webkit-scrollbar {
+    display: none;
+} 
+
+
+.fundo {
+    background-color: white;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-radius: 20px;
+}
+
+/* Navbar */
+
+.navbar {
+    margin: 20px;
+    position: absolute;
+    font-family: "Poppins";
+    font-size: 4vmin;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color:white;
+    background-color: transparent;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+}
+
+.navlinks li{
+    margin: 0 2vh;
+    color: white;
+}
+
+header {
+    height: 100vmin;
+    width: 100vw;
+    border-radius: 0px 0px 50px 50px;
+    background-image: url('./images/pet-bg2.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.header-content {
+    color:white;
+    text-align: center;
+    margin-bottom: 20vmin;
+}
+
+.header-content > img {
+    width: 7vw;
+    height: 7vw;
+}
+
+.header-content h2 {
+    color: #c8d8d6;
+    font-family: "Poppins";
+    font-size: 4vmin;
+}
+
+.header-content a {
+    font-size: 3vmin;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: #a4beba;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1 {
+    font-family: "Poppins";
+    font-size: 5vmin;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background: #a4beba;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Info */
+
+.info {
+    font-family: "Poppins";
+}
+.info h1 {
+    font-size: 8vh;
+    color: #a4beba;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 4vh;
+    color: #a4beba;
+    text-align: center;
+}
+
+.info p {
+    font-size: 2vh;
+    color: white;
+    background-color: #325157;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.deleteBtn {
+    text-align: center;
+    font-size: 2vh;
+    height: 10vh;
+    font-weight: bold;
+    background-color: #bebeb6;
+    border: none;
+    padding: 1vh;
+    border-radius: 20%;
+    color: white;
+}
+
+.deleteBtn:hover{
+    background-color: #8f8f89;
+    cursor: pointer;
+}
+
+table {
+    width: 140%;
+    table-layout:fixed;
+    border-collapse: collapse;
+    word-wrap: break-word;
+}
+
+td {
+    padding: 1rem;
+    width: 50%;
+}
+
+td .teste {
+    width: 90%;
+    height: 90%;
+    align-content: center;
+}
+
+/* Adicionar conteudo */
+
+.formT h5 {
+    text-align: center;
+}
+
+.formT .fechar {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 3vh;
+    transform: scale(3);
+    text-align: center;
+    border-radius: 20px;
+    border: transparent;
+    cursor: pointer;
+    color: #989892;
+    background-color: transparent;
+}
+
+.formT .submit {
+    text-align: center;
+    width: 100%;
+    font-size: 5vh;
+    border-radius: 20px;
+    padding: 2vh;
+    border: transparent;
+    cursor: pointer;
+    background-color: #a4beba;
+    color: white;
+}
+
+.formT {
+    margin: auto;
+    width: 50%;
+    border-radius: 20px;
+    padding: 3%;
+    transform: translate(50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    font-size: 4vh;
+    opacity: 0;
+    position: fixed;
+    font-family: "Poppins";
+    color: #325157;
+}
+
+.formT .caixa {
+    border-radius: 5px;
+    background-color: #bebeb6;
+    border: none;
+    color: black;
+    width: auto;
+    font-size: 2vh;
+    width: 100%;
+    resize: both;
+    overflow: auto;
+    text-decoration: none;
+    margin: 1vh;
+    resize: none;
+}
+
+.formT .caixa2{
+    background-color: #bebeb6;
+    border: none;
+    color: black;
+    width: auto;
+    font-size: 2vh;
+    width: 100%;
+    height: 10vh;
+    resize: both;
+    overflow: auto;
+    text-decoration: none;
+    margin: 1vh;
+    resize: none;
+    white-space: pre-wrap;
+}
+
+
+.formT.active {
+    top: 50%;
+    opacity: 1;
+    transition: opacity 100ms ease-in-out; 
+    animation: formActive 200ms;
+}
+
+@keyframes formActive {
+    from {scale: 0.95;}
+    to {scale: 1;}
+}
+
+.alerta {
+    font-size: 3vh;
+    color: #b30000;
+}
+
+/* Criar */
+
+.criar {
+    font-size: 5vh;
+    transform: translate() scale(2);
+    font-weight: bold;
+    background-color: #a4beba;
+    color: white;
+    margin: auto;
+    width: 10%;
+    border-radius: 20px;
+    border: transparent;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 1%;
+}
+
+.criar:hover {
+    background: #94aba7;
+}
+
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    min-height: 200px;
+    padding: 20px 80px;
+    margin: 0;
+    background-color: #213438;
+    text-align: center;
+}
+
+.footer h1 {
+    color: #416870;
+}
+
+.footer p {
+    
+    color: #325157;
+    margin: 20px auto;
+}
+
+/* Login */
+
+.login {
+    padding: 8px 15px;
+    background: #a4beba;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-right: 15px;
+    border: transparent;
+    font-family: "Poppins";
+    font-size: 4vmin;
+    cursor: pointer;
+}
+
+.login:hover {
+    background: #94aba7;
+}
+
+/* Anim */
+
+img {
+    height: 75px;
+    width: 75px;
+}
+
+.ctn:hover {
+    background: #94aba7;
+}
+
+li a:hover {
+    color: #a4beba;
+    transition: 0.2s;
+    text-decoration-color: #a4beba;
+}
+
+.formT .submit:hover{
+  background-color: #94aba7;
+}
+
+.formT .fechar:hover {
+    color: #5f5f5b;
+}

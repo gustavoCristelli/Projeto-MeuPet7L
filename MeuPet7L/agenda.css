@@ -1,0 +1,302 @@
+:root{
+    --lblue: #a4beba;
+    --blue: #48747C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li a {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+h3 {
+    text-decoration: underline;
+    color: #a4beba;
+    text-decoration-color: #a4beba;
+    font-size: 4vmin;
+}
+
+ul {
+    list-style: none;
+}
+
+body , html {
+    overflow-x: hidden;
+    background-image: url('./images/Design\ sem\ nome\ \(2\).png');
+}
+
+body::-webkit-scrollbar, html::-webkit-scrollbar {
+    display: none;
+} 
+
+
+.fundo {
+    background-color: white;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border-radius: 20px;
+}
+
+/* Navbar */
+
+.navbar {
+    margin: 20px;
+    position: absolute;
+    font-family: "Poppins";
+    font-size: 4vmin;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color:white;
+    background-color: transparent;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+}
+
+.navlinks li{
+    margin: 0 2vh;
+    color: white;
+}
+
+header {
+    height: 100vmin;
+    width: 100vw;
+    border-radius: 0px 0px 50px 50px;
+    background-image: url('./images/pet-bg2.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.header-content {
+    color:white;
+    text-align: center;
+    margin-bottom: 20vmin;
+}
+
+.header-content > img {
+    width: 7vw;
+    height: 7vw;
+}
+
+.header-content h2 {
+    color: #c8d8d6;
+    font-family: "Poppins";
+    font-size: 4vmin;
+}
+
+.header-content a {
+    font-size: 3vmin;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: #a4beba;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1 {
+    font-family: "Poppins";
+    font-size: 5vmin;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background: #a4beba;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    margin-left: 45%;
+}
+
+/* Info */
+
+.info {
+    font-family: "Poppins";
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+}
+
+.info .desc {
+    text-align: center;
+    color: gray;
+}
+
+.info h1 {
+    font-size: 8vh;
+    color: #a4beba;
+    text-decoration: underline;
+    text-align: center;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 2.5%;
+}
+.whatsapp {
+    margin-left: 40%;
+    width: 30vh;
+    height: 30vh;
+}
+
+.info p {
+    font-size: 4vh;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    word-break: break-word;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+    
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dados1 {
+    margin-right: 25%;
+}
+
+.dados2 {
+    font-size: 2vh;
+    margin-right: 5%;
+}
+
+.dados2 h2 {
+    color:#a4beba ;
+    padding: 20px;
+    font-size: 5vh;
+}
+
+.info2 {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 30px;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,.45);
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    background: #bebeb6;
+    margin: 10px auto;
+    border-radius: 5px;
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+/* Login */
+
+.login {
+    padding: 8px 15px;
+    background: #a4beba;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-right: 20px;
+    border: transparent;
+    font-family: "Poppins";
+    font-size: 4vmin;
+    cursor: pointer;
+}
+
+.login:hover {
+    background: #94aba7;
+}
+
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    min-height: 200px;
+    padding: 20px 80px;
+    margin: 0;
+    background-color: #213438;
+    text-align: center;
+}
+
+.footer h1 {
+    color: #416870;
+}
+
+.footer p {
+    
+    color: #325157;
+    margin: 20px auto;
+}
+
+/* Login */
+
+.login {
+    padding: 8px 15px;
+    background: #a4beba;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-right: 15px;
+    border: transparent;
+    font-family: "Poppins";
+    font-size: 4vmin;
+    cursor: pointer;
+}
+
+.login:hover {
+    background: #94aba7;
+}
+
+/* Anim */
+
+img {
+    height: 75px;
+    width: 75px;
+}
+
+.ctn:hover {
+    background: #94aba7;
+}
+
+li a:hover {
+    color: #a4beba;
+    transition: 0.2s;
+    text-decoration-color: #a4beba;
+}
+
+
+
+
